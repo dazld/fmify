@@ -1,0 +1,25 @@
+{
+  "name": "fmify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^8.1.1"
+  },
+  "browserify": {
+    "transform": [
+      "frontmatterify",
+      "bulkify"
+    ]
+  },
+  "dependencies": {
+    "bulk-require": "^0.2.1",
+    "bulkify": "^1.0.2",
+    "frontmatterify": "^1.0.0"
+  }
+}
